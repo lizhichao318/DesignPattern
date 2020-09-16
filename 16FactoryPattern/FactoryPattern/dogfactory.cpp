@@ -1,5 +1,5 @@
 #include "dogfactory.h"
-#include "D:/DesingPattern/01FactoryPattern/FactoryPattern/dog.h"
+#include "dog.h"
 
 
 Animal *DogFactory::CreateAnimal()

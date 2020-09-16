@@ -1,7 +1,7 @@
 #ifndef ANIMALFACTORY_H
 #define ANIMALFACTORY_H
+#include "animal.h"
 
-class Animal;
 class AnimalFactory
 {
 public:

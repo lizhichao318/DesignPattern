@@ -15,9 +15,33 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        main.cpp
+        dbhelper.cpp \
+        dbhelperaccess.cpp \
+        dbhelperoracel.cpp \
+        grades.cpp \
+        gradeshelper.cpp \
+        gradeshelperaccess.cpp \
+        gradeshelperoracel.cpp \
+        main.cpp \
+        student.cpp \
+        studenthelper.cpp \
+        studenthelperaccess.cpp \
+        studenthelperoracel.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    dbhelper.h \
+    dbhelperaccess.h \
+    dbhelperoracel.h \
+    grades.h \
+    gradeshelper.h \
+    gradeshelperaccess.h \
+    gradeshelperoracel.h \
+    student.h \
+    studenthelper.h \
+    studenthelperaccess.h \
+    studenthelperoracel.h
