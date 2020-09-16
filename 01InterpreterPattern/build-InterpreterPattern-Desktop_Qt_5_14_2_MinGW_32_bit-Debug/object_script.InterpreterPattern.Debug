@@ -1,0 +1,14 @@
+debug/addbinaryexpression.o
+debug/binaryexpression.o
+debug/calculator.o
+debug/constant.o
+debug/context.o
+debug/divbinaryexpression.o
+debug/expression.o
+debug/main.o
+debug/mulbinaryexpression.o
+debug/negativeunaryexpression.o
+debug/positiveunaryexpression.o
+debug/subbinaryexpression.o
+debug/unaryexpression.o
+debug/variable.o

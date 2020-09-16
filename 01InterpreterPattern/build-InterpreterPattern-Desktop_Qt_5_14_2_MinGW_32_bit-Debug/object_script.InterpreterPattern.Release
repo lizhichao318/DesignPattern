@@ -1,0 +1,14 @@
+release/addbinaryexpression.o
+release/binaryexpression.o
+release/calculator.o
+release/constant.o
+release/context.o
+release/divbinaryexpression.o
+release/expression.o
+release/main.o
+release/mulbinaryexpression.o
+release/negativeunaryexpression.o
+release/positiveunaryexpression.o
+release/subbinaryexpression.o
+release/unaryexpression.o
+release/variable.o
