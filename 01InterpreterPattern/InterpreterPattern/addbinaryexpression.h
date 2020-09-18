@@ -12,9 +12,11 @@ public:
     }
     void display(Context * ctx) override
     {
+        cout<<"(";
         leftExpression->display(ctx);
         cout << "+";
         rightExpression->display(ctx);
+        cout<<")";
     }
 };
 
